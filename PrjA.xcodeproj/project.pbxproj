@@ -13,7 +13,7 @@
 		FB21109D1D23759400EBD0EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB21109B1D23759400EBD0EF /* Main.storyboard */; };
 		FB21109F1D23759400EBD0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB21109E1D23759400EBD0EF /* Assets.xcassets */; };
 		FB2110A21D23759400EBD0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2110A01D23759400EBD0EF /* LaunchScreen.storyboard */; };
-		FB2110CF1D23785C00EBD0EF /* YPCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2110CE1D23785C00EBD0EF /* YPCommonView.m */; };
+		FB2110D61D23A08C00EBD0EF /* YPCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2110D51D23A08C00EBD0EF /* YPCommonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		FB21109E1D23759400EBD0EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB2110A11D23759400EBD0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB2110A31D23759400EBD0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB2110CD1D23785C00EBD0EF /* YPCommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YPCommonView.h; path = ../subm/YPCommonView.h; sourceTree = "<group>"; };
-		FB2110CE1D23785C00EBD0EF /* YPCommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YPCommonView.m; path = ../subm/YPCommonView.m; sourceTree = "<group>"; };
+		FB2110D41D23A08C00EBD0EF /* YPCommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YPCommonView.h; path = subm/YPCommonView.h; sourceTree = "<group>"; };
+		FB2110D51D23A08C00EBD0EF /* YPCommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YPCommonView.m; path = subm/YPCommonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		FB2110CC1D23782C00EBD0EF /* subm */ = {
 			isa = PBXGroup;
 			children = (
-				FB2110CD1D23785C00EBD0EF /* YPCommonView.h */,
-				FB2110CE1D23785C00EBD0EF /* YPCommonView.m */,
+				FB2110D41D23A08C00EBD0EF /* YPCommonView.h */,
+				FB2110D51D23A08C00EBD0EF /* YPCommonView.m */,
 			);
 			name = subm;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 			files = (
 				FB21109A1D23759400EBD0EF /* ViewController.m in Sources */,
 				FB2110971D23759400EBD0EF /* AppDelegate.m in Sources */,
-				FB2110CF1D23785C00EBD0EF /* YPCommonView.m in Sources */,
+				FB2110D61D23A08C00EBD0EF /* YPCommonView.m in Sources */,
 				FB2110941D23759300EBD0EF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +314,7 @@
 				FB2110A81D23759400EBD0EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
